@@ -11,3 +11,5 @@ const server = createServer({
 
 const main: IO<void> = async () =>
   await (await server)();
+
+main();
